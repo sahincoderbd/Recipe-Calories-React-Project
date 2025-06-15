@@ -1,0 +1,99 @@
+[
+    {
+      "recipe_id": 1,
+      "recipe_name": "Spicy Thai Basil Chicken",
+      "image": "https://i.ibb.co/DxXkc8S/pngtree-thai-red-curry-chicken-with-fresh-basil-and-jasmine-rice-png-image-15262924.png",
+      "short_description": "A flavorful stir-fry made with chicken, basil, and a spicy sauce.",
+      "ingredients": [
+        "550 g chicken",
+        "120 ml soy sauce",
+        "200 g basil leaf",
+        "2 cloves garlic",
+        "1 red chili",
+        "1 tbsp vegetable oil"
+      ],
+      "preparing_time": "30 min",
+      "calories": "320 calories"
+    },
+    {
+      "recipe_id": 2,
+      "recipe_name": "Creamy Mushroom Pasta",
+      "image": "https://i.ibb.co/Z1XhRfcd/pasta-with-mushrooms-created-with-generative-ai-png.webp",
+      "short_description": "Rich and creamy pasta tossed with sautéed mushrooms and garlic.",
+      "ingredients": [
+        "400 g spaghetti",
+        "400 g mushroom",
+        "100 ml heavy cream",
+        "2 cloves garlic",
+        "1 tbsp olive oil",
+        "50 g parmesan cheese"
+      ],
+      "preparing_time": "25 min",
+      "calories": "450 calories"
+    },
+    {
+      "recipe_id": 3,
+      "recipe_name": "Grilled Lemon Garlic Salmon",
+      "image": "https://i.ibb.co/DH2bRgFb/pngtree-dish-of-grilled-salmon-garnished-with-fresh-herbs-and-vegetables-png-image-15086550.png",
+      "short_description": "Juicy salmon fillets grilled with lemon and garlic for a zesty flavor.",
+      "ingredients": [
+        "2 salmon fillets",
+        "1 lemon",
+        "2 cloves garlic",
+        "1 tbsp olive oil",
+        "Salt to taste",
+        "Black pepper to taste"
+      ],
+      "preparing_time": "20 min",
+      "calories": "390 calories"
+    },
+    {
+      "recipe_id": 4,
+      "recipe_name": "Vegetable Stir Fry",
+      "image": "https://i.ibb.co/Z6z13GHT/chicken-and-vegetable-stir-fry-free-png.webp",
+      "short_description": "Colorful vegetables stir-fried in a savory sauce.",
+      "ingredients": [
+        "1 bell pepper",
+        "100 g broccoli",
+        "1 carrot",
+        "50 g snow peas",
+        "2 tbsp soy sauce",
+        "1 tbsp sesame oil"
+      ],
+      "preparing_time": "15 min",
+      "calories": "210 calories"
+    },
+    {
+      "recipe_id": 5,
+      "recipe_name": "Classic Beef Burger",
+      "image": "https://i.ibb.co/3583rGmz/pngtree-classic-beef-burger-png-image-17627579.png",
+      "short_description": "A juicy beef patty served in a bun with classic toppings.",
+      "ingredients": [
+        "200 g ground beef",
+        "1 burger bun",
+        "1 slice cheddar cheese",
+        "Lettuce",
+        "Tomato",
+        "Ketchup"
+      ],
+      "preparing_time": "20 min",
+      "calories": "520 calories"
+    },
+    {
+      "recipe_id": 6,
+      "recipe_name": "Avocado Toast",
+      "image": "https://i.ibb.co/yBPwHV6S/avocado-toast-with-egg-and-avocado-on-toast-free-png.webp",
+      "short_description": "Simple and healthy toast topped with smashed avocado.",
+      "ingredients": [
+        "2 slices of bread",
+        "1 ripe avocado",
+        "1 tsp lemon juice",
+        "Salt to taste",
+        "Black pepper to taste",
+        "Chili flakes"
+      ],
+      "preparing_time": "10 min",
+      "calories": "300 calories"
+    }
+  ]
+  

@@ -1,0 +1,12 @@
+
+:root {
+  --color-primary: #fff;
+  --color-secondary: #000;
+  --color-para: #4a4949;
+  --color-accent: #0BE58A;
+}
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+
