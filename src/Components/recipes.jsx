@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Recipe from './recipe';
 import '../App.css'
 
-const Recipes = () => {
+const Recipes = ({handleWantToCookBtn}) => {
     
     const [recipes,setRecipes]=useState([]);
 
@@ -12,13 +12,13 @@ const Recipes = () => {
         .then(data=>setRecipes(data))
 
 
-    },[])
+    },[]);
     
 
     return (
         <div className='flex-2/3 grid grid-cols-1 lg:grid-cols-3 gap-3 lg:gap-6'>
             {
-                recipes.map((recipe,idx)=><Recipe key={idx} recipe={recipe}></Recipe>)
+                recipes.map((recipe,idx)=><Recipe handleWantToCookBtn={handleWantToCookBtn} key={idx} recipe={recipe}></Recipe>)
 
             }
         </div>

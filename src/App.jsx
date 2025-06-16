@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import './App.css'
 import Header from './Components/header'
 import Hero from './Components/hero'
@@ -5,6 +6,17 @@ import Recipes from './Components/recipes'
 import Sidebar from './Components/sidebar'
 
 function App() {
+
+  const [wantToCook,setWantToCook]=useState([]);
+
+
+  const handleWantToCookBtn=(recipe)=>{
+    console.log(recipe,'want to cook  clicked');
+    if(!wantToCook.includes(recipe)){
+     const newArray=[...wantToCook,recipe];
+    setWantToCook(newArray);
+    }
+}
 
 
   return (
@@ -18,8 +30,8 @@ function App() {
       rhoncus. Eget urna volutpat curabitur elementum mauris aenean neque. </p>
   </div>
   <div className='flex flex-col lg:flex-row justify-between px-3 my-14 lg:gap-5 gap-3 container mx-auto'>
-  <Recipes></Recipes>
-  <Sidebar></Sidebar>
+  <Recipes handleWantToCookBtn={handleWantToCookBtn}></Recipes>
+  <Sidebar wantToCook={wantToCook}></Sidebar>
 
   </div>
       
