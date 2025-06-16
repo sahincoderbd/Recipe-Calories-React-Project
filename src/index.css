@@ -4,9 +4,15 @@
 
 @import "tailwindcss";
 @plugin "daisyui";
+@tailwind utilities;
 
-
-
+:root{
+  --color-primary: #fff;
+  --color-secondary: #000;
+  --color-text: #545454;
+  --color-accent: #0BE58A;
+  --color-darktxt: #c2c2c2;
+}
 
 body {
     font-family: "Lexend", sans-serif;
@@ -15,4 +21,6 @@ body {
     font-size: 18px;
     font-style: normal;
   }
+
+ 
   

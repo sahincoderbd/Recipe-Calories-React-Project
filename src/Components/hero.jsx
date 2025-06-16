@@ -14,7 +14,7 @@ const Hero = () => {
   <div className="hero-overlay rounded-2xl"></div>
   <div className="hero-content text-neutral-content text-center">
     <div className="max-w-full lg:max-w-2/3">
-      <h1 className="mb-5 text-2xl lg:text-3xl font-bold text-primary">Discover an exceptional cooking<br></br> class tailored for you!</h1>
+      <h1 className="mb-5 text-2xl lg:text-4xl font-bold text-accent">Discover an exceptional cooking<br></br> class tailored for you!</h1>
       <p className="mb-5">
       Learn and Master Basic Programming, Data Structures, Algorithm, OOP, Database and solve 500+
        coding problems to become an exceptionally well world-class Programmer.
