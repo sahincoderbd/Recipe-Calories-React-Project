@@ -4,17 +4,41 @@ import Header from './Components/header'
 import Hero from './Components/hero'
 import Recipes from './Components/recipes'
 import Sidebar from './Components/sidebar'
+import { ToastContainer, toast,Slide } from 'react-toastify';
+
 
 function App() {
 
   const [wantToCook,setWantToCook]=useState([]);
+ 
+  
+const toastHandler=()=>{
+  toast.warn('Already Added!', {
+    position: "top-right",
+    autoClose: 3000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    theme: "light",
+    transition: Slide,
+    });
 
+}
 
   const handleWantToCookBtn=(recipe)=>{
+
     console.log(recipe,'want to cook  clicked');
-    if(!wantToCook.includes(recipe)){
+    if(!wantToCook.includes(recipe) && wantToCook.length<1)
+      {
      const newArray=[...wantToCook,recipe];
     setWantToCook(newArray);
+
+    }
+    else{
+       console.log('toast comming');
+       toastHandler();
+
     }
 }
 
@@ -31,8 +55,20 @@ function App() {
   </div>
   <div className='flex flex-col lg:flex-row justify-between px-3 my-14 lg:gap-5 gap-3 container mx-auto'>
   <Recipes handleWantToCookBtn={handleWantToCookBtn}></Recipes>
-  <Sidebar wantToCook={wantToCook}></Sidebar>
-
+  <Sidebar wantToCook={wantToCook} setWantToCook={setWantToCook}></Sidebar>
+  <ToastContainer
+    position="top-right"
+    autoClose={3000}
+    hideProgressBar={false}
+    newestOnTop
+    closeOnClick={false}
+    rtl={false}
+    pauseOnFocusLoss
+    draggable
+    pauseOnHover
+    theme="dark"
+    transition={Slide}
+  />
   </div>
       
     </>

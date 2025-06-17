@@ -6,13 +6,10 @@
       "short_description": "A flavorful stir-fry made with chicken, basil, and a spicy sauce.",
       "ingredients": [
         "550 g chicken",
-        "120 ml soy sauce",
-        "200 g basil leaf",
-        "2 cloves garlic",
         "1 red chili",
         "1 tbsp vegetable oil"
       ],
-      "preparing_time": "30 min",
+      "preparing_time": "30",
       "calories": "320 calories"
     },
     {
@@ -23,12 +20,10 @@
       "ingredients": [
         "400 g spaghetti",
         "400 g mushroom",
-        "100 ml heavy cream",
         "2 cloves garlic",
-        "1 tbsp olive oil",
         "50 g parmesan cheese"
       ],
-      "preparing_time": "25 min",
+      "preparing_time": "25",
       "calories": "450 calories"
     },
     {
@@ -38,13 +33,10 @@
       "short_description": "Juicy salmon fillets grilled with lemon and garlic for a zesty flavor.",
       "ingredients": [
         "2 salmon fillets",
-        "1 lemon",
-        "2 cloves garlic",
-        "1 tbsp olive oil",
         "Salt to taste",
         "Black pepper to taste"
       ],
-      "preparing_time": "20 min",
+      "preparing_time": "20",
       "calories": "390 calories"
     },
     {
@@ -56,11 +48,9 @@
         "1 bell pepper",
         "100 g broccoli",
         "1 carrot",
-        "50 g snow peas",
-        "2 tbsp soy sauce",
         "1 tbsp sesame oil"
       ],
-      "preparing_time": "15 min",
+      "preparing_time": "15",
       "calories": "210 calories"
     },
     {
@@ -72,11 +62,10 @@
         "200 g ground beef",
         "1 burger bun",
         "1 slice cheddar cheese",
-        "Lettuce",
-        "Tomato",
-        "Ketchup"
+        "Lettuce"
+        
       ],
-      "preparing_time": "20 min",
+      "preparing_time": "20",
       "calories": "520 calories"
     },
     {
@@ -85,14 +74,11 @@
       "image": "https://i.ibb.co/yBPwHV6S/avocado-toast-with-egg-and-avocado-on-toast-free-png.webp",
       "short_description": "Simple and healthy toast topped with smashed avocado.",
       "ingredients": [
-        "2 slices of bread",
-        "1 ripe avocado",
         "1 tsp lemon juice",
-        "Salt to taste",
         "Black pepper to taste",
         "Chili flakes"
       ],
-      "preparing_time": "10 min",
+      "preparing_time": "10",
       "calories": "300 calories"
     }
   ]

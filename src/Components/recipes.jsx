@@ -16,7 +16,7 @@ const Recipes = ({handleWantToCookBtn}) => {
     
 
     return (
-        <div className='flex-2/3 grid grid-cols-1 lg:grid-cols-3 gap-3 lg:gap-6'>
+        <div className='flex-3/5 grid grid-cols-1 lg:grid-cols-2 gap-3 lg:gap-6'>
             {
                 recipes.map((recipe,idx)=><Recipe handleWantToCookBtn={handleWantToCookBtn} key={idx} recipe={recipe}></Recipe>)
 

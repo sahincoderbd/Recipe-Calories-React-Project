@@ -15,11 +15,13 @@ const Recipe = ({recipe,handleWantToCookBtn}) => {
     <>
      <div id={recipe_id} className=" card bg-primary dark:bg-gray-950 shadow-md p-3 gap-4 justify-between">
         
-        <img 
+       <div className=' rounded-lg bg-gray-100 dark:bg-gray-900 p-2 flex flex-col items-center' >
+       <img 
             src={image}
             alt="Shoes"
-            className="rounded-lg w-full bg-gray-100 dark:bg-gray-900 p-2 h-60 h-auto" />
+            className=" w-50 object-cover  h-auto" />
        
+       </div>
         <div className=" items-center space-y-2 border-b border-darktxt dark:border-text pb-4">
             <h2 className="text-xl font-bold text-accent">{recipe_name}</h2>
             <p className='text-text dark:text-darktxt'>{short_description}</p> 
